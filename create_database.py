@@ -10,7 +10,11 @@ Base = declarative_base()
 #Essa notacao segue o padrao : http://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls
 #DBpath = "mysql://root:oigalera845813@localhost/restaurant_utf8"
 
-engine = sqlalchemy.create_engine('mysql://root:oigalera845813@127.0.0.1:3306')
+#//////////  Vagrant //////////
+#engine = sqlalchemy.create_engine('mysql://root:oigalera845813@127.0.0.1:3306')
+
+#/////// Digital Ocean ////////
+engine = sqlalchemy.create_engine('mysql://root:procurandonemo@localhost')
 
 engine.execute("CREATE DATABASE mariainesartes_utf8 CHARACTER SET utf8 COLLATE utf8_general_ci")
 
