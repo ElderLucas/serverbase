@@ -1,6 +1,6 @@
 .portfolio-header {
   position: relative;
-  background-image: url(images/header-bg-00b0ff.png);
+  background-image: url(images/header-bg-orange.png);
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -59,6 +59,7 @@
       -ms-flex: 1;
           flex: 1;
   line-height: 42px;
+  color: white;
 }
 
 .portfolio-header .mdl-layout__drawer-button {
@@ -177,7 +178,7 @@ footer {
 .demo-card-square > .mdl-card__title {
   color: #fff;
   background:
-    url('https://www.youtube.com/watch?v=SqakWs70vkc') bottom right 15% no-repeat #FF1744;
+    url('https://www.youtube.com/watch?v=SqakWs70vkc') bottom right 15% no-repeat #FF9800;
 }
 
 .demo-card-image.mdl-card {
@@ -199,7 +200,7 @@ footer {
 .demo-card-event.mdl-card {
   width: auto;
   height: 480px;
-  background: #00b0ff;
+  background: #FF9800;
 }
 .demo-card-event > .mdl-card__actions {
   border-color: rgba(255, 255, 255, 0.2);
